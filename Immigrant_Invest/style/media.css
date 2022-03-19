@@ -1,0 +1,174 @@
+@media (max-width: 1339px) {
+}
+@media (max-width: 1248px) {
+   html {
+      height: 4150px;
+      overflow-x: hidden;
+   }
+   .imaginary_bg_header img {
+      width: 100%;
+   }
+   .main_section {
+      margin-left: 20px;
+      width: 1153px;
+   }
+   .reviews_tiles_vertical_list {
+      flex-direction: column;
+      margin-bottom: 0px;
+   }
+   .vertical_tile {
+      width: 1150px;
+      height: 300px;
+      margin-bottom: 20px;
+   }
+   .tile_img {
+      padding-left: 50px;
+   }
+   .tile_title_and_subtitle_bold {
+      padding-top: 10px;
+   }
+   .reviews_tiles_horizontal {
+      justify-content: space-around;
+   }
+   .reviews_tiles_horizontal.tile {
+      width: 565px;
+   }
+   .imaginary_bg_footer img {
+      width: 100%;
+   }
+}
+
+@media (max-width: 768px) {
+   html {
+      height: 4150px;
+      overflow-x: hidden;
+   }
+   main {
+      padding: 0;
+   }
+   .imaginary_bg_header img {
+      width: 100%;
+   }
+   .main_section {
+      margin-left: 40px;
+      width: 100%;
+   }
+   .reviews_tiles_vertical_list {
+      flex-direction: column;
+      margin-bottom: 0px;
+   }
+   .vertical_tile {
+      width: 90%;
+      height: 90%;
+      margin-bottom: 20px;
+   }
+   .tile_img {
+      padding-left: 50px;
+   }
+   .tile_title_and_subtitle_bold {
+      padding-top: 10px;
+   }
+   .reviews_tiles_horizontal_list {
+      width: 90%;
+      justify-content: space-between;
+   }
+   .reviews_tiles_horizontal.tile {
+      width: 330px;
+      height: 550px;
+   }
+   .imaginary_bg_footer img {
+      width: 100%;
+   }
+   .more_btn_div {
+      width: 90%;
+   }
+   footer {
+      height: 300px;
+   }
+}
+@media (max-width: 425px) {
+   .reviews_tiles_horizontal_list {
+      width: 90%;
+      justify-content: space-between;
+      flex-direction: column;
+   }
+   .reviews_tiles_horizontal.tile {
+      width: 385px;
+      height: 513px;
+      margin-bottom: 20px;
+   }
+}
+@media (max-width: 378px) {
+   html {
+      height: 4150px;
+      overflow-x: hidden;
+   }
+   main {
+      padding: 0;
+   }
+   .imaginary_bg_header img {
+      width: 100%;
+   }
+   .main_section {
+      margin-top: 50px;
+      margin-left: 20px;
+      width: 100%;
+   }
+   .reviews_subtitle_list {
+      margin-top: 50px;
+   }
+   .reviews_tiles_vertical_list {
+      flex-direction: column;
+      margin-bottom: 0px;
+   }
+   .vertical_tile {
+      width: 90%;
+      height: 90%;
+      margin-bottom: 20px;
+   }
+   .tile_img {
+      padding-left: 50px;
+   }
+   .tile_title_and_subtitle_bold {
+      padding-top: 10px;
+   }
+   .reviews_tiles_horizontal_list {
+      width: 90%;
+      justify-content: space-between;
+      flex-direction: column;
+   }
+   .reviews_tiles_horizontal.tile {
+      width: 330px;
+      height: 550px;
+      margin-bottom: 20px;
+   }
+   .imaginary_bg_footer img {
+      width: 100%;
+   }
+   .more_btn_div {
+      width: 90%;
+      padding-top: 10px;
+      padding-bottom: 50px;
+   }
+   .reviews_subtitle_element button span {
+      font-size: 17px;
+   }
+   footer {
+      visibility: hidden;
+   }
+}
+@media (max-width: 321px) {
+   .reviews_subtitle_element button span {
+      font-size: 15px;
+   }
+   .reviews_tiles_horizontal_list {
+      width: 90%;
+      justify-content: space-between;
+      flex-direction: column;
+   }
+   .reviews_tiles_horizontal.tile {
+      width: 273px;
+      height: 680px;
+      margin-bottom: 20px;
+   }
+}

@@ -1,0 +1,338 @@
+/* ------- MAIN SETTINGS ------- */
+html {
+   height: 3340px;
+   margin: auto;
+   overflow-x: hidden;
+}
+main {
+   padding-left: 20px;
+}
+header {
+   position: relative;
+}
+body {
+   margin: auto;
+   min-height: 100%;
+   position: relative;
+}
+footer {
+   margin: auto;
+   height: 760px;
+   position: absolute;
+   bottom: 0;
+}
+a:active,
+a:hover,
+a {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+}
+button {
+   transition: all 0.11s ease 0s;
+}
+button:hover {
+   cursor: pointer;
+   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+   transform: scale(1.02);
+}
+
+/* ------- HEADER ------- */
+
+.imaginary_bg_header {
+   display: flex;
+   justify-content: center;
+}
+.fixed_div {
+   position: fixed;
+   top: 0;
+}
+.bg_header {
+   z-index: -1;
+   position: absolute;
+   top: 0;
+   height: 800px;
+   width: 3000px;
+   background: linear-gradient(#edf6fd, rgba(255, 255, 255, 0));
+}
+
+/* ------- MAIN SECTION ------- */
+
+/* Main section ------- */
+
+.main_section {
+   width: 1210px;
+   margin: auto;
+   margin-top: 139px;
+}
+
+/* ------- TITLE & SUBTITLE ------- */
+
+/* Title ------- */
+
+.reviews_title h1 {
+   font-family: "Muller";
+   font-weight: 700;
+   font-size: 70px;
+   line-height: 70px;
+}
+
+/* Reviews subtitle ------- */
+
+.reviews_subtitle_list {
+   padding: 0;
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
+.reviews_subtitle_row {
+   display: flex;
+   flex-direction: row;
+   align-content: space-around;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+.reviews_subtitle_element {
+   padding-right: 10px;
+}
+.reviews_subtitle_element button {
+   background-color: transparent;
+   height: 42px;
+   border-radius: 20px;
+   border: #e5e7eb solid 1.5px;
+}
+.reviews_subtitle_element button span {
+   font-family: "Muller";
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   padding: 15px;
+   text-align: center;
+}
+
+/* ------- REVIEWS TILES ------- */
+
+/* Reviews tile ------- */
+
+.tile {
+   background-color: white;
+   border: #e5e7eb solid 1.5px;
+   border-radius: 30px 30px 30px 0px;
+}
+.tile:hover {
+   box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.3);
+   transform: scale(1.05);
+   transition: 0.15s;
+}
+.tiles_content {
+   margin: 25px 15px 25px 25px;
+}
+.reviews_tiles_vertical {
+   display: flex;
+   flex-direction: column;
+}
+.tile_first_lvl {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 60px;
+   margin-right: 10px;
+}
+.tile_title_and_subtitle {
+   padding-top: 20px;
+}
+.tile_img {
+   height: 69px;
+   width: 69px;
+   position: relative;
+}
+.country_img {
+   height: ;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+.tile_text {
+   position: relative;
+}
+.tile_text p {
+   margin-top: 40px;
+   margin-bottom: 0;
+}
+
+/* Fonts tile ------- */
+
+.tile_title {
+   font-family: "Muller";
+   font-weight: 700;
+   font-size: 19px;
+   line-height: 27.55px;
+}
+.tile_subtitle {
+   font-family: "Muller";
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 18.9px;
+}
+.tile_text {
+   font-family: "Muller";
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+}
+
+/* Gradient ------- */
+
+.gradient {
+   bottom: 0;
+   width: 100%;
+   height: 100px;
+   position: absolute;
+   background: linear-gradient(rgba(252, 252, 252, 0), rgb(255, 255, 255));
+}
+
+/* Reviews bold tiles ------- */
+.reviews_tiles_bold_vertical {
+   position: relative;
+}
+.tile_bold_content {
+   margin: 30px 33px 40px 25px;
+}
+.tile_bold_text {
+   font-family: "Muller";
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 36px;
+}
+.tile_title_and_subtitle_bold {
+   padding-top: 55px;
+}
+.bold_img {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+/* ------- REVIEWS TILES VERTICAL LIST ------- */
+
+/* Reviews tiles vertical list ------- */
+
+.reviews_tiles_vertical_list {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 13px;
+}
+.vertical_tile {
+   width: 386px;
+   height: 539px;
+}
+
+/* Reviews tiles horizontal list ------- */
+
+.reviews_tiles_horizontal_list {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 13px;
+}
+.horizontal_tile {
+   width: 592px;
+   height: 390px;
+}
+
+/* ------- MORE BUTTON ------- */
+
+.more_btn_div {
+   padding-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.more_btn {
+   width: 90px;
+}
+.more_btn span {
+   font-family: "Muller";
+   font-weight: 300;
+   font-size: 20px;
+}
+.more_btn_div button {
+   background-color: #edf6fd91;
+   height: 42px;
+   border-radius: 20px;
+   border: #dcdee4 solid 1.5px;
+}
+
+/* ------- POPUP ------- */
+
+.tile_first_lvl {
+   justify-content: flex-start;
+}
+.popup_img {
+   padding-left: 60px;
+}
+.popup {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   top: 0;
+   left: 0;
+   opacity: 0;
+   visibility: hidden;
+   transition: all 0.21s ease 0s;
+}
+.popup:target {
+   opacity: 1;
+   visibility: visible;
+}
+.popup_area {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}
+.popup_body {
+   min-height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 30px 10px;
+}
+.popup_content {
+   border-radius: 30px 0px 30px 30px;
+   background-color: white;
+   color: black;
+   max-width: 800px;
+   padding: 30px;
+   position: relative;
+}
+.popup_close {
+   top: 10px;
+   right: 10px;
+   position: absolute;
+}
+.popup_close_img {
+   width: 25px;
+}
+.popup_close :hover {
+   filter: invert(50%);
+   transition: 0.2s;
+}
+.popup_title {
+}
+.popup_subtitle {
+}
+.popup_text {
+}
+.popup_second_lvl {
+   padding-top: 20px;
+}
+
+/* ------- FOOTER ------- */
+
+.imaginary_bg_footer {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+}
